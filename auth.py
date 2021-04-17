@@ -95,7 +95,12 @@ def bank_operations(user):
 
 def deposit_operation():
     print(" ************ Deposit operations ************** ")
-    get_current_balance()
+    #This are the things I want to do Nico
+    # get current balance
+    # get amount to deposit
+    # add deposited amount to current balance
+    # display current balance
+
     deposit = int(input('How much will you like to deposit? \n'))
     print(deposit)
     
@@ -113,6 +118,14 @@ def deposit_operation():
 
 def withdrawal_operation():
     print(" ********** Withdrawal operations ************* ")
+    #This are the things I want to do Nico
+    # get current balance
+    # get amount to withdraw
+    # check if current balance > withdraw balance
+    # deduct withdrawn amount form current balance
+    # display current balance
+    
+    
     int(input('How much will you like to withdraw? \n'))
     print ('Please take your cash')
     end_session = int(input("What will you like to do?: (1) Perform another transaction (2)exit"))
