@@ -17,9 +17,9 @@ def init():
         if(open_account == 1):
             print(register())
             
-    elif(open_account == 2):
-        print("Thank you for your time!")
-        exit()
+        elif(open_account == 2):
+             print("Thank you for your time!")
+             exit()
 
     else:
         print("Wrong option selected")
